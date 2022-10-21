@@ -1,0 +1,17 @@
+{
+  "LABEL": {
+    "name": "title needs formatting",
+    "color": "EEEEEE"
+  },
+  "CHECKS": {
+    "prefixes": ["fix: ", "feat: "],
+    "regexp": "Pract\.[0-9][0-9]: Add [0-9][0-9]-[0-9][0-9] \| [a-zA-Z]+ [A-Za-z]+",
+    "regexpFlags": "i",
+    "ignoreLabels" : ["dont-check-PRs-with-this-label", "meta"]
+  },
+  "MESSAGES": {
+    "success": "All OK",
+    "failure": "Failing CI test",
+    "notice": ""
+  }
+}
