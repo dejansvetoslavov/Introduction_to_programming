@@ -44,7 +44,7 @@ void print_line(char *msg) {
 }
 
 int main() {
-    char c = 0b10000000; // 128
+    char c = 0b10000000; // -128
     print_character(c);
 
     char c2 = 0b10000001; // -127
